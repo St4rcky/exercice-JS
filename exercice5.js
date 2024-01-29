@@ -1,11 +1,9 @@
 const listeDeTaches = [];
 
-function courses() {
-  listeDeTaches.push("Faire les courses");
+function ajouterTache(tache) {
+  listeDeTaches.push(tache);
 }
-function fleurs() {
-  listeDeTaches.push("Acheter des fleurs");
-}
-courses();
-fleurs();
+
+ajouterTache("Faire les courses");
+ajouterTache("Acheter des fleurs");
 console.log(`"Liste de tâches : ${listeDeTaches}`);
